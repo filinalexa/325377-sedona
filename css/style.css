@@ -26,13 +26,18 @@ body {
 .cover {
 	width: 100%;
   	height: 509px;
-  	background-image: url("img/mountain.jpg");
+  	background-image: 
+  	url("img/mask-background-index.png"),
+  	url("img/mountain.jpg");
   	background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 100%,
+    50% 50%;
     background-size: 100%;
 
 }
 
+
+}
 
 .index-content {
 	width: 100%;
