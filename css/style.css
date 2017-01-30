@@ -1,7 +1,130 @@
 body {
-	font-family: "PT Sans";
+	font-family: "PT Sans", sans-serif;
 	font-size: 14px;
+	line-height: 1.5;
+	background-color: #fefefe ;
+  	background-size: 1200px auto;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation {
+  width: 1200px;
+}
+
+.index-logo {
+  width: 138px;
+  height: 57px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cover {
+	width: 100%;
+  	height: 509px;
+  	background-image: url("img/bg-u.jpg");
+  /*	почему не могу добавить фон?
+*/  	
+}
+
+
+.index-content {
+	width: 100%;
+}
+
+.promotion  {
+	width: 100%;
+	min-height: 216px;
+}
+
+.promotion-siti {
+	 text-align: center;
+}
+
+.reason {
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+    line-height: 1.857;
+    
+}
+
+
+.features-item {
+	width: 100%;
+	height: 256px;
+}
+
+.features .features-item {
+	width: 33%;
+	float: left;
+
+}
+
+.features {
+	width: 100%;
+	height: 330px;
+}
+
+.features-small {
+	height: 256px;
+	background-color: #eeeeee;
+}
+
+
+.index-content-text {
+	width: 33%;
+	height: 256px;
+	float: left;
+	background-color: #81b3d2;
+}
+
+.index-content-img {
+	width: 66%;
+	float: left;
+	height: 256px;
+}
+
+.features-item-revers .index-content-text  {
+	float: right;
+}
+
+.features-item-hotels {
+	width: 100%;
+	height: 256px;
+}
+
+.main-footer {
+	width: 100%;
+	height: 120px;
+}
+
+.hashtag {
+	float: left;
+	width: 400px;
+}
+
+.social {
+	float: left;
+	width: 400px;
+}
+
+
+
+.footer-copyright {
+	float: right;
+	width: 400px;
+}
+
+
+.features-item-hotels {
+
+}
+
 
 h1 {
 	font-size: 21px;
@@ -13,4 +136,12 @@ h3 {
 	font-size: 16px;
 	color:#333333;
 	text-transform: uppercase;
+}
+
+.features h3 {
+	text-align: center;
+}
+
+.features p {
+	text-align: center;
 }

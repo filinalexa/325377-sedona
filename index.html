@@ -23,71 +23,80 @@
         	</header>
 
   	<div class="cover">
-  		<img src="img/photo-1.jpg" width="300" height="150" alt="WELCOME to the gorgeous SEDONA">
+  		<img src="img/Welcome.png" width="256" height="352" alt="WELCOME to the gorgeous SEDONA">
   	</div>
 
 
-    <main class="">
-      <div class="">
-          <h1>Седона - небольшой городок в аризоне,<br> 
+    <main class="index-content">
+      <div class="promotion">
+          <h1 class="promotion-siti">Седона - небольшой городок в аризоне,<br> 
           заслуживающий большего!</h1>
+            <p class="reason">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </div>
-      <div class="">
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каноон!</p>
-      </div>
-        <section class="index-content">
+
+        <section class="features-item">
+          <div class="index-content-text">
           <h3>Настоящий городок</h3>
           <p>-N1-</p>
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-          <img src="img/photo-2.jpg" width="66%" alt="Вид города">
+          </div>
+          <div class="index-content-img">
+          <img src="img/photo-siti.jpg" width=800px hight=256px alt="Вид города">
+          </div>
         </section>
-        <div class="index-content">
-          <section class="index-content">
+
+        <div class="features">
+          <section class="features-item">
             <h3>Жилье</h3>
             <p>Рекомендуем пожить в настоящем <br> мотеле, все как в кино!</p>
           </section>
-          <section class="index-content">
+          <section class="features-item">
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
           </section>
-          <section class="index-content">
+          <section class="features-item">
             <h3>Сувениры</h3>
             <p>Не только китайского, но и местного<br> производства!</p>
           </section>
         </div>
-        <section class="index-content">
-          <img src="img/photo-2.jpg" width="66%" alt="Вид каньона">
+
+        <section class="features-item features-item-revers">
+           <div class="index-content-text">
           <h3>Там есть <br> мост дьявола</h3>
           <p>-N2-</p>
           <p>Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
+          </div>
+          <div class="index-content-img"><img src="img/Layer 5.jpg" width=800px hight=256px alt="Вид каньона">
+          </div>
         </section>
-        <div class="index-content">
-          <section class="index-content">
+
+        <div class="features features-small">
+          <section class="features-item">
             <h3>Небольшая<br> площадь</h3>
             <p>-№3-</p>
             <p>Все достопримечательности <br> находятся очень близко</p>
           </section>
-          <section class="index-content">
+          <section class="features-item">
             <h3>Красивая<br> дорога</h3>
             <p>-№4-</p>
             <p>Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
           </section>
-          <section class="index-content">
+          <section class="features-item">
             <h3>Мало<br> туристов</h3>
             <p>-№5-</p>
             <p>Большинство едет в гранд каньон и<br> толпится там</p>
           </section>
         </div>
 
-        <section class="index-content">
+        <section class="features-item-hotels">
             <h3>Заинтересовались?</h3>
                 <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <form class="hotel-form" action="https://echo.htmlacademy.ru" method="post">
-                <legend>Поиск гостиницы в Седоне</legend>
-                    <p><label>Дата заезда</label><input type="search" name="check-in"></p>
-                    <p><label>Дата выезда</label><input type="search" name="check-out"></p>
-                    <p><label>Взрослые</label><input type="numeral" name="adult"></p>
-                    <p><label>Дети</label><input type="numeral" name="children"></p>
+                <h4>Поиск гостиницы в Седоне</h4>
+                    <p><label>Дата заезда</label><input type="data" name="check-in"></p>
+                    <p><label>Дата выезда</label><input type="data" name="check-out"></p>
+                    <p><label>Взрослые</label><input type="number" name="adult"></p>
+                    <p><label>Дети</label><input type="number" name="children"></p>
                   <button>найти</button>
             </form>
         </section>
@@ -96,7 +105,7 @@
     </main>
 
     <footer class="main-footer">
-        <div class="hashtag"></div>
+        <div class="hashtag">
             <h3>#VISITSEDONA</h3>
         </div>
         <div class="social">
