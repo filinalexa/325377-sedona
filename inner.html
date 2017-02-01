@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
     </head>
 
     <body>
-      <div class="container"></div>
+      <div class="container">
         
       <header class="main-header">
           
@@ -25,7 +26,7 @@
       </header>
 
       <main class="content">
-          <div class"choice-hotels">
+          <div class="choice-hotels">
               <form class="filter-hotels">
                   <fieldset class="infrastructure-hotels">
                       <legend>Инфраструктура</legend>
@@ -62,15 +63,15 @@
 
           <section class="results">
               <h3>Найдено: 3 </h3>
-              <span class="sorting"></span>
+              <span class="sorting">Сортировка</span>
               <div class="option-sorting">
                   <a href="#">По цене</a>
                   <a href="#">По типу</a>
                   <a href="#">По рейтингу</a>
               </div>
               <div class="sorting-results">
-                  <a class="">стрелка вниз</a>
-                  <a class="">стрелка вверх</a>
+                  <a class=""> ↑</a>
+                  <a class=""> ↓</a>
               </div>
           </section>
 
@@ -80,25 +81,29 @@
               </div>
               <div class="information-hotel">
                   <h3 class="name-hotels">Amara resort & SPA</h3> 
-                  <p class="type-hotel-item">Гостиница</p>
-                  <p class="price-hotel-item">от 3500 р.</p>
-                  <a href="details-hotel-item">Подробнее</p></a>
+                  <ul>
+                      <li>Гостиница</li>
+                      <li>от 3500 р.</li>
+                  </ul>
+                  <a href="details-hotel-item">Подробнее</a>
                   <a href="#"><p class="reserve-hotel-item"></p>Забронировать</a>
               </div>
               <div class="rating-hotel">
                   <img src="img/1.jpg" alt="">
                   <p class="rating-hotel-item">Рейтинг: 8,5</p>
               </div>
-          </section>
+          </article>
 
-          <section>
+          <article class="hotel-item">
             <div class="photo-hotel-item">
                   <img src="img/2.jpg" alt="">
               </div>
               <div class="information-hotel">
                   <h3 class="name-hotels">Desert quail inn</h3> 
-                  <p class="type-hotel-item">Мотель</p>
-                  <p class="price-hotel-item">От 2000 р.</p>
+                  <ul>
+                      <li>Мотель</li>
+                      <li>от 2000 р.</li>
+                  </ul>
                   <a href="#"><p class="details-hotel-item">Подробнее</p></a>
                   <a href="#"><p class="reserve-hotel-item"></p>Забронировать</a>
               </div>
@@ -106,16 +111,18 @@
                   <img src="img/1.jpg" alt="">
                   <p class="rating-hotel-item">Рейтинг: 8,9</p>
               </div>
-          </section>
+          </article>
 
-          <section>
+          <article class="hotel-item">
             <div class="photo-hotel-item">
                   <img src="img/3.jpg" alt="">
               </div>
               <div class="information-hotel">
-                  <h3 class="name-hotels"></h3> 
-                  <p class="type-hotel-item">Апартаменты</p>
-                  <p class="price-hotel-item">От 4000 р.</p>
+                  <h3 class="name-hotels"></h3>
+                  <ul>
+                      <li>Апартаменты</li>
+                      <li>от 4000 р.</li>
+                  </ul> 
                   <a href="#"><p class="details-hotel-item"></p>Подробнее</a>
                   <a href="#"><p class="reserve-hotel-item"></p>Забронировать</a>
               </div>
@@ -123,28 +130,27 @@
                   <img src="img/1.jpg" alt="">
                   <p class="rating-hotel-item">Рейтинг: 9,2</p>
               </div>
-          </section>
+          </article>
       
       </main>
 
  
+      <footer class="main-footer">
+        <div class="hashtag">
+            #VISITSEDONA
+        </div>
+        <div class="social">
+            <a class="social-btn social-btn-vk" href="#">Twitter</a>
+            <a class="social-btn social-btn-fb" href="#">Facebook</a>
+            <a class="social-btn social-btn-yt" href="#">YouTube </a>
+        </div>
+        <div class="footer-copyright">
+            <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </div>
 
 
-
-
-
-
-
-
-
-     <footer class="main-footer">
-  <h3>#VISITSEDONA</h3>
-
-  <a class="social-btn social-btn-vk" href="#">Twitter</a>
-  <a class="social-btn social-btn-fb" href="#">Facebook</a>
-  <a class="social-btn social-btn-yt" href="#">YouTube </a>
     </footer>
-<!--  -->
 
 
     </div>

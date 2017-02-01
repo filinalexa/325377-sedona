@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -23,7 +25,7 @@
         	</header>
 
   	<div class="cover">
-  		<img src="img/welcome.png" width="256" height="352" alt="WELCOME to the gorgeous SEDONA">
+  		<img src="img/welcom.png" width="256"   alt="WELCOME to the gorgeous SEDONA">
   	</div>
 
 
@@ -41,20 +43,23 @@
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
           </div>
           <div class="index-content-img">
-          <img src="img/siti.jpg" width=800px hight=256px alt="Вид города">
+          <img src="img/siti.jpg" width=800px  alt="Вид города">
           </div>
         </section>
 
         <div class="features">
           <section class="features-item">
+            <img src="img/habitation.png" width=75px  alt="Вид города">
             <h3>Жилье</h3>
             <p>Рекомендуем пожить в настоящем <br> мотеле, все как в кино!</p>
           </section>
           <section class="features-item">
+            <img src="img/food.png" width=74px alt="">
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
           </section>
           <section class="features-item">
+            <img src="img/souvenir.png" width=64px alt="">
             <h3>Сувениры</h3>
             <p>Не только китайского, но и местного<br> производства!</p>
           </section>
@@ -66,7 +71,7 @@
           <p>-N2-</p>
           <p>Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
           </div>
-          <div class="index-content-img"><img src="img/canyon.jpg" width=800px hight=256px alt="Вид каньона">
+          <div class="index-content-img"><img src="img/canyon.jpg" width=800px  alt="Вид каньона">
           </div>
         </section>
 
@@ -93,8 +98,8 @@
                 <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <form class="hotel-form" action="https://echo.htmlacademy.ru" method="post">
                 <h4>Поиск гостиницы в Седоне</h4>
-                    <p><label>Дата заезда</label><input type="data" name="check-in"></p>
-                    <p><label>Дата выезда</label><input type="data" name="check-out"></p>
+                    <p><label>Дата заезда</label><input type="date" name="check-in"></p>
+                    <p><label>Дата выезда</label><input type="date" name="check-out"></p>
                     <p><label>Взрослые</label><input type="number" name="adult"></p>
                     <p><label>Дети</label><input type="number" name="children"></p>
                   <button>найти</button>
@@ -106,7 +111,7 @@
 
     <footer class="main-footer">
         <div class="hashtag">
-            <h3>#VISITSEDONA</h3>
+            #VISITSEDONA
         </div>
         <div class="social">
             <a class="social-btn social-btn-vk" href="#">Twitter</a>
