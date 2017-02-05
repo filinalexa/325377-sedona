@@ -2,25 +2,75 @@ body {
 	font-family: "PT Sans", sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
-	background-color: #fefefe ;
-  	background-size: 1200px auto;
+	background-color: #f2f2f2;
+  	/*background-size: 1200px auto;*/
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 25px;
 }
 
 .main-navigation {
-  width: 1200px;
+	height: 57px;
+	/*display: flex;
+	flex-direction: row;
+  width: 1200px;*/
+ }
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+
+.main-navigation li {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+
+.main-navigation li:nth-child(3) {
+	float: right;
+}
+
+.main-navigation li:nth-child(4) {
+	float: right;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 17px 73px;
+    text-decoration: none;
+}
+
+.main-navigation a:hover {
+  /*background: #242424;*/
+}
+
+
+.main-header {
+	position: relative;
 }
 
 .index-logo {
+	position: absolute;
+	top: 0;
+	left: 531px;
   width: 138px;
   height: 57px;
-  margin-right: auto;
-  margin-left: auto;
+  /*margin-right: auto;
+  margin-left: auto;*/
 }
 
 .cover {
@@ -33,9 +83,13 @@ body {
     background-position: 50% 100%,
     50% 50%;
     background-size: 100%;
-
+    padding-top: 78px;
 }
 
+.cover img {
+	display: block;
+	margin: 0 auto;
+}
 
 }
 
@@ -84,14 +138,14 @@ body {
 
 
 .index-content-text {
-	width: 33%;
+	width: 33,33333%;
 	height: 256px;
 	float: left;
 	background-color: #81b3d2;
 }
 
 .index-content-img {
-	width: 66%;
+	width: 66,66666%;
 	float: left;
 	height: 256px;
 }
@@ -211,3 +265,4 @@ h3 {
   /* Только для оформления сетки */
   min-height: 90px;
 }
+
